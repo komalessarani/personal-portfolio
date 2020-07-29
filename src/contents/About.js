@@ -1,10 +1,11 @@
 import React from 'react';
-
+import "../css/About.css"
 
 function About(){
+
    return(
    <div id="about" className="container" style={{}}>
-        <div style={{position:'relative'}}>
+        <div>
             <h1 style={{color: 'black', fontSize:40}}>About Me</h1>     
             <div className="columns">
                 <div className="column">
