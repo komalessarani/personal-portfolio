@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+    margin-bottom: 0;
+    font-size: 500%;
+    margin-top: 10%;
+}
+
+
+h2 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+#home{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed; 
+}
+
+.arrow.bounce {
+    animation-name: floating;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes floating {
+    from { transform: translate(0,  15px); }
+    55%  { transform: translate(0, 21px); }
+    to   { transform: translate(0, 15px); }    
+}

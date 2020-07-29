@@ -1,0 +1,12 @@
+p.title, p.subtitle{
+    color: white;
+    margin: 15px;
+}
+
+
+.card:hover{
+    /* opacity: 0.7; */
+    filter: brightness(85%);
+    cursor: pointer;
+}
+
