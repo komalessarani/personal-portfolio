@@ -3,3 +3,8 @@
         height: 100vh;
     }
 }
+
+#about{
+    display: flex;
+    align-items: center;
+}

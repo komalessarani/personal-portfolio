@@ -10,3 +10,13 @@ p.title, p.subtitle{
     cursor: pointer;
 }
 
+.card{
+    /* margin: 5%; */
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.columns{
+    margin: auto;
+}
