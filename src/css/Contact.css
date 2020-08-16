@@ -1,0 +1,12 @@
+.input, .textarea, .select select{
+    border-color: #B5B5B5 !important;
+}
+
+.field-label.is-normal{
+    text-align: left;
+}
+
+.button{
+    display: flex;
+    margin: auto;
+}

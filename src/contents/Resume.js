@@ -1,9 +1,9 @@
 import React from 'react';
 import '../css/Resume.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSchool, faBriefcase, faLaptopCode, faAward } from '@fortawesome/free-solid-svg-icons';
+import { faSchool, faBriefcase, faLaptopCode, faAward, faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import $ from 'jquery'; 
-import resumeData from '../assets/resume_data'
+import resumeData from '../assets/resume_data';
 
 function Resume(){
    return(
@@ -26,6 +26,9 @@ function Resume(){
                             </li>
                             <li className="menu-item" id="honor">
                                 <a href={() => false}><span className="icon is-small"><FontAwesomeIcon icon={faAward}></FontAwesomeIcon></span> <span className="text honor">Honors & Awards</span></a>
+                            </li>
+                            <li className="menu-item" id="full_resume">
+                                <a href={() => false}><span className="icon is-small"><FontAwesomeIcon icon={faFilePdf}></FontAwesomeIcon></span> <span className="text honor">See Full Resume</span></a>
                             </li>
                         </ul>
                     </div>
@@ -71,7 +74,9 @@ function Resume(){
                         </div>
                     </div>
                 </div>
-            </div>   
+            </div>                      
+            <hr/>
+
         </div>
     </div>
     );
@@ -101,6 +106,11 @@ $(document).ready(function() {
             case "honor":
                 $(".root-content").empty()
                 $(".root-content").append(Honor())
+                break;
+            case "full_resume":
+                $(".root-content").empty()
+                $(".root-content").append(`<iframe src=${require('../assets/Essarani_Komal.pdf')} type="application/pdf" width="100%" height="480px"> </iframe>
+                `)
                 break;
             default:
                 $(".root-content").empty()

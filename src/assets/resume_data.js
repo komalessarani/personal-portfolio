@@ -21,7 +21,9 @@ const resumeData = {
                 date: 'June 2020-August 2020',
                 name: 'Global Technology Summer Analyst',
                 subtitle: 'Bank of America',
-                extra_info: ['Current Internship - so far working with Python and NLP models for financial data']
+                extra_info: ['Collaborated in a team of 12 other interns to scrape over financial and regulatory documents to build an NLP language model (corpus)',
+                'Implemented Python packages such as NLTK, Spacy, TensorFlow, and other NLP tools to clean and process documents into the proper format based on exploratory data analysis',
+                'Employed Agile methodologies in order to streamline the project process and make communication easier']
             },
 
             {

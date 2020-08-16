@@ -5,6 +5,7 @@ import Home from './contents/Home'
 import About from './contents/About'
 import Resume from './contents/Resume'
 import Project from './contents/Project'
+import Contact from './contents/Contact'
 
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
           <About />
           <Resume />
           <Project />
+          <Contact />
         </div>
     );
   }

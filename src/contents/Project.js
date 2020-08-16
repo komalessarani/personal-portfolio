@@ -9,7 +9,7 @@ function Project(){
             <h1 style={{color: 'black', fontSize:40}}>My Projects</h1>   
             <div className="columns">
               <div className="column">
-                <div className ="card" onClick={() => { window.open("/2048", "_blank");}}>
+                <div className ="card" onClick={() => { window.open("https://github.com/komalessarani/UNC-Assignments/tree/master/COMP%20426/a07", "_blank");}}>
                 <div className="card-image">
                   <figure className="image">
                     <img src={require('../assets/2048pic.png')} alt="2048"/>

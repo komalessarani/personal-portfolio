@@ -5,6 +5,15 @@ h1 {
     margin-top: 10%;
 }
 
+.links ul li{
+    display: inline;
+    padding-left: 1em;
+}
+
+#icon:hover{
+    color:#FA7C91;
+    cursor: pointer;
+}
 
 h2 {
     color: white;
