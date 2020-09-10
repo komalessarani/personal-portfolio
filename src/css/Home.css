@@ -34,9 +34,16 @@ h2 {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     background-attachment: fixed; 
 }
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    #home {
+      background-attachment: scroll;
+    }
+  }
 
 .arrow.bounce {
     animation-name: floating;
