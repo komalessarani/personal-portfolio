@@ -1,6 +1,12 @@
 const resumeData = {
         education: [
             {
+                date: 'August 2021-May 2022',
+                name: 'University of North Carolina at Chapel Hill',
+                subtitle: 'M.S. in Computer Science',
+                extra_info: []
+                },
+                {
                 date: 'August 2018-May 2021',
                 name: 'University of North Carolina at Chapel Hill',
                 subtitle: 'B.S. in Computer Science with a Minor in Statistics & Analytics',
@@ -12,11 +18,17 @@ const resumeData = {
                 date: 'August 2016-May 2018',
                 name: 'Levine Middle College High School',
                 subtitle: 'A.S. in Computer Science Pathway',
-                extra_info: ['GPA Weighted: 4.9 | GPA Unweighted: 3.9', 'Rank: 3/100']
+                extra_info: []
             }      
         ],
 
         employment: [
+            {
+                date: 'June 2021-August 2021',
+                name: 'Incoming Software Engineer Intern',
+                subtitle: 'Oracle America, Inc',
+                extra_info: []
+            },
             {
                 date: 'June 2020-August 2020',
                 name: 'Global Technology Summer Analyst',

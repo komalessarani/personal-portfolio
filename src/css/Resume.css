@@ -17,11 +17,21 @@
     ul.coursework, ul.list{
         list-style-type: square;
         margin-left: 5%;
+        display: -ms-flexbox;           /* IE 10 */
+    display: -webkit-flex;          /* Safari 6.1+. iOS 7.1+ */
+    display: flex;
+    -webkit-flex-flow: wrap column; /* Safari 6.1+ */
+    flex-flow: wrap column;
+    max-height: 300px;              /* L
+        /* display: inline-grid;
+        grid-template-rows: repeat(5, auto);
+        grid-auto-flow: column; */
     }
 
     ul.coursework li {
-        width:20em;
-        float:left;
+        padding: .25em;
+        /* width: 300px;
+        float:left; */
       }
 
     div.root-content{

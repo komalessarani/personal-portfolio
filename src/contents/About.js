@@ -9,7 +9,8 @@ function About(){
             <h1 style={{color: 'black', fontSize:40}}>About Me</h1>     
             <div className="columns">
                 <div className="column">
-                    <p>Hello! I'm Komal, a rising senior at University of North Carolina at Chapel Hill - Go Heels!</p> <br/>
+                    <p>Hello! I'm Komal, a senior at University of North Carolina at Chapel Hill and I will be completing
+                        my Master's degree there as well from 2021-2022. Go Heels!</p> <br/>
                     <p>
                         I enjoy learning new technologies and their implementations, whether it's a mobile application, website, 
                         data science, or anything else! It's really fascinating to me how impactful technology can be and my goal is
@@ -25,10 +26,11 @@ function About(){
                             <li>Java</li>
                             <li>JavaScript</li>
                             <li>Python</li>
+                            <li>Racket</li>
                         </ul>
                         </div>
                         <div className="column">
-                        <ul className="tech" style={{listStyleType:"square"}}>
+                        <ul className="tech" style={{listStyleType:"square", listStylePosition:"inside"}}>
                         <li>HTML/CSS</li>
                             <li>React.js</li>
                             <li>Clojure</li>

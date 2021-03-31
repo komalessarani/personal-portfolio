@@ -38,6 +38,16 @@ function Resume(){
                     <div className="columns content" style={{marginLeft: "2%"}}>
                         <div className="column">
                             <strong>University of North Carolina at Chapel Hill,</strong><br/>
+                            <span style={{color: "black"}}><i>M.S. in Computer Science with a Minor in Statistics & Analytics</i></span>
+                        </div>
+                        <div className="column is-one-third">
+                            <p>August 2021-May 2022</p>
+                        </div>
+                    </div>
+                    <hr style={{width:'100%', backgroundColor:"hsl(0, 0%, 96%)", height:'0.2px', marginTop: "5%"}}/>
+                    <div className="columns content" style={{marginLeft: "2%"}}>
+                        <div className="column">
+                            <strong>University of North Carolina at Chapel Hill,</strong><br/>
                             <span style={{color: "black"}}><i>B.S. in Computer Science with a Minor in Statistics & Analytics</i></span>
                         </div>
                         <div className="column is-one-third">
@@ -53,21 +63,16 @@ function Resume(){
                             <li>Models of Languages and Computation</li>
                             <li>Algorithms and Analysis</li>
                             <li>Bioalgorithms: <i>Python</i></li>
-                            <li>Software Architecture: <i>Clojure</i></li>         
+                            <li>Software Architecture: <i>Clojure</i></li>        
                             <li>Modern Web Programming: <i>JavaScript and jQuery</i></li>
+                            <li>Programming Languages Concept: <i>Racket, SML, and Prolog</i></li> 
                         </ul>
-                        <br/>
                     </div>
-                    <br/>
-                    <hr style={{width:'100%', backgroundColor:"hsl(0, 0%, 96%)", height:'0.2px', marginTop: "12%"}}/>
+                    <hr style={{width:'100%', backgroundColor:"hsl(0, 0%, 96%)", height:'0.2px', marginTop: "5%"}}/>
                     <div className="columns content" style={{marginLeft: "2%", width:'100%'}}>
                         <div className="column">
                             <strong>Levine Middle College High School,</strong><br/>
                             <span style={{color: "black"}}><i>A.S. in Computer Science Pathway</i></span><br/>
-                            <ul className="list">
-                            <li>GPA Weighted: 4.9 | GPA Unweighted: 3.9</li>
-                            <li>Rank: 3/100</li>
-                            </ul>
                         </div>
                         <div className="column is-one-third">
                             <p>August 2016-May 2018</p>
@@ -125,6 +130,16 @@ $(document).ready(function() {
       <div class="columns content" style="margin-left: 2%">
           <div class="column">
               <strong>University of North Carolina at Chapel Hill,</strong><br/>
+              <span style="color: black"><i>M.S. in Computer Science with a Minor in Statistics & Analytics</i></span>
+          </div>
+          <div class="column is-one-third">
+              <p>August 2021-May 2022</p>
+          </div>
+      </div>
+      <hr style="width:100%; background-color:hsl(0, 0%, 96%); height:0.2px; margin-top: 5%"/>
+      <div class="columns content" style="margin-left: 2%">
+          <div class="column">
+              <strong>University of North Carolina at Chapel Hill,</strong><br/>
               <span style="color: black"><i>B.S. in Computer Science with a Minor in Statistics & Analytics</i></span>
           </div>
           <div class="column is-one-third">
@@ -142,19 +157,14 @@ $(document).ready(function() {
               <li>Bioalgorithms: <i>Python</i></li>
               <li>Software Architecture: <i>Clojure</i></li>         
               <li>Modern Web Programming: <i>JavaScript and jQuery</i></li>
+              <li>Programming Languages Concept: <i>Racket, SML, and Prolog</i></li> 
           </ul>
-          <br/>
       </div>
-      <br/>
-      <hr style="width:100%; background-color:hsl(0, 0%, 96%); height:0.2px; margin-top: 12%"/>
+      <hr style="width:100%; background-color:hsl(0, 0%, 96%); height:0.2px; margin-top: 5%"/>
       <div class="columns content" style="margin-left: 2%; width:100%">
           <div class="column">
               <strong>Levine Middle College High School,</strong><br/>
               <span style="color: black"><i>A.S. in Computer Science Pathway</i></span><br/>
-              <ul class="list">
-              <li>GPA Weighted: 4.9 | GPA Unweighted: 3.9</li>
-              <li>Rank: 3/100</li>
-              </ul>
           </div>
           <div class="column is-one-third">
               <p>August 2016-May 2018</p>
