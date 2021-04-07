@@ -38,7 +38,7 @@ function Resume(){
                     <div className="columns content" style={{marginLeft: "2%"}}>
                         <div className="column">
                             <strong>University of North Carolina at Chapel Hill,</strong><br/>
-                            <span style={{color: "black"}}><i>M.S. in Computer Science with a Minor in Statistics & Analytics</i></span>
+                            <span style={{color: "black"}}><i>M.S. in Computer Science</i></span>
                         </div>
                         <div className="column is-one-third">
                             <p>August 2021-May 2022</p>
@@ -130,7 +130,7 @@ $(document).ready(function() {
       <div class="columns content" style="margin-left: 2%">
           <div class="column">
               <strong>University of North Carolina at Chapel Hill,</strong><br/>
-              <span style="color: black"><i>M.S. in Computer Science with a Minor in Statistics & Analytics</i></span>
+              <span style="color: black"><i>M.S. in Computer Science</i></span>
           </div>
           <div class="column is-one-third">
               <p>August 2021-May 2022</p>
