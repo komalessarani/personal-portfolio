@@ -34,50 +34,6 @@ function Resume(){
                     </div>
                 </div>
                 <div className="root-content" style={{width: '100%'}}>
-                    {/* <h2 style={{color: 'black', textAlign: 'center'}}>Education</h2> <br/>
-                    <div className="columns content" style={{marginLeft: "2%"}}>
-                        <div className="column">
-                            <strong>University of North Carolina at Chapel Hill,</strong><br/>
-                            <span style={{color: "black"}}><i>M.S. in Computer Science</i></span>
-                        </div>
-                        <div className="column is-one-third">
-                            <p>August 2021-May 2022</p>
-                        </div>
-                    </div>
-                    <hr style={{width:'100%', backgroundColor:"hsl(0, 0%, 96%)", height:'0.2px', marginTop: "5%"}}/>
-                    <div className="columns content" style={{marginLeft: "2%"}}>
-                        <div className="column">
-                            <strong>University of North Carolina at Chapel Hill,</strong><br/>
-                            <span style={{color: "black"}}><i>B.S. in Computer Science with a Minor in Statistics & Analytics</i></span>
-                        </div>
-                        <div className="column is-one-third">
-                            <p>August 2018-May 2021</p>
-                        </div>
-                    </div>
-                    <div className="course-list" style={{marginLeft: "3.5%"}}>
-                        <b>Coursework</b><br/>
-                        <ul className="coursework">
-                            <li>Foundations of Programming: <i>Java</i></li>
-                            <li>Data Structures and Analysis: <i>Java</i></li>
-                            <li>Computer Organization: <i>C and MIPS</i></li>
-                            <li>Models of Languages and Computation</li>
-                            <li>Algorithms and Analysis</li>
-                            <li>Bioalgorithms: <i>Python</i></li>
-                            <li>Software Architecture: <i>Clojure</i></li>        
-                            <li>Modern Web Programming: <i>JavaScript and jQuery</i></li>
-                            <li>Programming Languages Concept: <i>Racket, SML, and Prolog</i></li> 
-                        </ul>
-                    </div>
-                    <hr style={{width:'100%', backgroundColor:"hsl(0, 0%, 96%)", height:'0.2px', marginTop: "5%"}}/>
-                    <div className="columns content" style={{marginLeft: "2%", width:'100%'}}>
-                        <div className="column">
-                            <strong>Levine Middle College High School,</strong><br/>
-                            <span style={{color: "black"}}><i>A.S. in Computer Science Pathway</i></span><br/>
-                        </div>
-                        <div className="column is-one-third">
-                            <p>August 2016-May 2018</p>
-                        </div>
-                    </div> */}
                 </div>
             </div>                      
             <hr/>
