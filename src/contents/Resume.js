@@ -34,7 +34,7 @@ function Resume(){
                     </div>
                 </div>
                 <div className="root-content" style={{width: '100%'}}>
-                    <h2 style={{color: 'black', textAlign: 'center'}}>Education</h2> <br/>
+                    {/* <h2 style={{color: 'black', textAlign: 'center'}}>Education</h2> <br/>
                     <div className="columns content" style={{marginLeft: "2%"}}>
                         <div className="column">
                             <strong>University of North Carolina at Chapel Hill,</strong><br/>
@@ -77,7 +77,7 @@ function Resume(){
                         <div className="column is-one-third">
                             <p>August 2016-May 2018</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>                      
             <hr/>
@@ -88,6 +88,8 @@ function Resume(){
 }
 
 $(document).ready(function() {
+    $(".root-content").append(Education())
+
     $('.menu-list li').on('click', function() {
         let active_tab = this.firstChild;
         $('.menu-list a').removeClass('is-active')
@@ -125,7 +127,7 @@ $(document).ready(function() {
     });
   });
 
-  const Education = () =>{
+  const Education2 = () =>{
       return `<h2 style="color: black; text-align: center">Education</h2> <br/>
       <div class="columns content" style="margin-left: 2%">
           <div class="column">
@@ -170,6 +172,29 @@ $(document).ready(function() {
               <p>August 2016-May 2018</p>
           </div>
       </div>`      
+    }
+
+    const Education = () =>{
+        let html = `<h2 style="color: black; text-align: center">Education</h2> <br/>`;
+    resumeData.education.map(block =>
+        html += 
+        `<div class="columns content" style="margin-left: 2%">
+                 <div class="column">
+                     <strong>${block.name}</strong><br/>
+                     <span style="color: black"><i>${block.subtitle}</i></span><br/>
+                 </div>
+                 <div class="column is-one-third">
+                     <p>${block.date}</p>
+                   </div>
+             </div>
+            <div style="margin-left: 3.5%">
+            <ul class="list">
+            ${block.extra_info.map((d) => `<li>${d}</li>`).join('')}
+            </ul>
+            </div>
+            <hr style="width:100%; background-color:hsl(0, 0%, 96%); height:0.2px"/>`
+        )
+        return html;
     }
 
   const Work = () =>{

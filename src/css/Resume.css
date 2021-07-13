@@ -14,7 +14,7 @@
         border-left-color: #fa7c91;
     }
 
-    ul.coursework, ul.list{
+    ul.list{
         list-style-type: square;
         margin-left: 5%;
         display: -ms-flexbox;           /* IE 10 */
@@ -27,12 +27,6 @@
         grid-template-rows: repeat(5, auto);
         grid-auto-flow: column; */
     }
-
-    ul.coursework li {
-        padding: .25em;
-        /* width: 300px;
-        float:left; */
-      }
 
     div.root-content{
         overflow-y: auto;

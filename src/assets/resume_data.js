@@ -12,7 +12,8 @@ const resumeData = {
                 subtitle: 'B.S. in Computer Science with a Minor in Statistics & Analytics',
                 extra_info: ['Foundations of Programming: <i>Java</i>', 'Data Structures and Analysis: <i>Java</i>',
                             'Computer Organization: <i>C and MIPS</i>', 'Models of Languages and Computation', 'Algorithms and Analysis',
-                            'Bioalgorithms: <i>Python</i>', 'Software Architecture: <i>Clojure</i>', 'Modern Web Programming: <i>JavaScript and jQuery</i>']
+                            'Bioalgorithms: <i>Python</i>', 'Software Architecture: <i>Clojure</i>', 'Modern Web Programming: <i>JavaScript and jQuery</i>',
+                        'Files and Databases: <i>Python and SQL</i>', 'Programming Language Concepts: <i>Racket</i>', 'Data Science: <i>R</i>']
                 },
             {
                 date: 'August 2016-May 2018',
@@ -48,7 +49,7 @@ const resumeData = {
             },
 
             {
-                date: 'May 2019-Present',
+                date: 'May 2019-January 2021',
                 name: 'Residential Computing Consultant',
                 subtitle: 'UNC Chapel Hill',
                 extra_info: ['Provide Technical Support to students living on campus while also developing monthly reports with updates']
@@ -82,7 +83,7 @@ const resumeData = {
             },
 
             {
-                date: 'May 2020-Present',
+                date: 'May 2020-May 2021',
                 name: 'Women in Computer Science Events Coordinator',
                 subtitle: 'UNC Chapel Hill',
                 extra_info: ['Help create networking and social events and plan semester budget',
@@ -106,7 +107,7 @@ const resumeData = {
 
         honors:[
             {
-                date:'June 2020-Present',
+                date:'June 2020-June 2021',
                 name: 'Grace Hopper Scholar',
                 subtitle: 'Anita Borg Institue for Women in Technology',
                 extra_info: ['Merit Based Scholarship for a women in tech conference',
