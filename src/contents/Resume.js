@@ -127,53 +127,6 @@ $(document).ready(function() {
     });
   });
 
-//   const Education2 = () =>{
-//       return `<h2 style="color: black; text-align: center">Education</h2> <br/>
-//       <div class="columns content" style="margin-left: 2%">
-//           <div class="column">
-//               <strong>University of North Carolina at Chapel Hill,</strong><br/>
-//               <span style="color: black"><i>M.S. in Computer Science</i></span>
-//           </div>
-//           <div class="column is-one-third">
-//               <p>August 2021-May 2022</p>
-//           </div>
-//       </div>
-//       <hr style="width:100%; background-color:hsl(0, 0%, 96%); height:0.2px; margin-top: 5%"/>
-//       <div class="columns content" style="margin-left: 2%">
-//           <div class="column">
-//               <strong>University of North Carolina at Chapel Hill,</strong><br/>
-//               <span style="color: black"><i>B.S. in Computer Science with a Minor in Statistics & Analytics</i></span>
-//           </div>
-//           <div class="column is-one-third">
-//               <p>August 2018-May 2021</p>
-//           </div>
-//       </div>
-//       <div class="course-list" style="margin-left: 3.5%">
-//           <b>Coursework</b><br/>
-//           <ul class="coursework">
-//               <li>Foundations of Programming: <i>Java</i></li>
-//               <li>Data Structures and Analysis: <i>Java</i></li>
-//               <li>Computer Organization: <i>C and MIPS</i></li>
-//               <li>Models of Languages and Computation</li>
-//               <li>Algorithms and Analysis</li>
-//               <li>Bioalgorithms: <i>Python</i></li>
-//               <li>Software Architecture: <i>Clojure</i></li>         
-//               <li>Modern Web Programming: <i>JavaScript and jQuery</i></li>
-//               <li>Programming Languages Concept: <i>Racket, SML, and Prolog</i></li> 
-//           </ul>
-//       </div>
-//       <hr style="width:100%; background-color:hsl(0, 0%, 96%); height:0.2px; margin-top: 5%"/>
-//       <div class="columns content" style="margin-left: 2%; width:100%">
-//           <div class="column">
-//               <strong>Levine Middle College High School,</strong><br/>
-//               <span style="color: black"><i>A.S. in Computer Science Pathway</i></span><br/>
-//           </div>
-//           <div class="column is-one-third">
-//               <p>August 2016-May 2018</p>
-//           </div>
-//       </div>`      
-//     }
-
     const Education = () =>{
         let html = `<h2 style="color: black; text-align: center">Education</h2> <br/>`;
     resumeData.education.map(block =>
