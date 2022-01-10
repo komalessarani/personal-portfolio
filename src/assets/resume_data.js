@@ -4,7 +4,8 @@ const resumeData = {
                 date: 'August 2021-May 2022',
                 name: 'University of North Carolina at Chapel Hill',
                 subtitle: 'M.S. in Computer Science',
-                extra_info: []
+                extra_info: ['Graduate Level Algorithms & Analysis', 'Operating Systems: <i>C</i>', 'Information Visualization: <i>D3, Altair, Charticulator, Tableau</i>',
+                'Digital Logic: <i>SystemVerilog, C, MIPS</i>']
                 },
                 {
                 date: 'August 2018-May 2021',
@@ -26,9 +27,10 @@ const resumeData = {
         employment: [
             {
                 date: 'June 2021-August 2021',
-                name: 'Incoming Software Engineer Intern',
+                name: 'Software Engineer Intern',
                 subtitle: 'Oracle America, Inc',
-                extra_info: []
+                extra_info: ['Implemented Pact.js, a testing framework into existing microservices as well as with API requests and responses', 'Learned more about how microservices and APIs communicate',
+                'Enrolled in self-learning courses to explore Pact.js', 'Used Postman, JavaScript, Pact.js, Kubernetes']
             },
             {
                 date: 'June 2020-August 2020',
