@@ -11,7 +11,7 @@ function Home(){
    <div id="home" style={{backgroundImage: `linear-gradient(rgba(20,20,20, .8), rgba(20,20,20, .8)), url(${picture})`, textAlign:'center'}}>
         <div id="text">
             <h1 style={{margin: 0, padding: 0}}>Komal Essarani</h1>
-            <h2 style={{margin: 0, padding: 0}}>student who loves exploring, eating good food, and development :)</h2>  <br/> 
+            <h2 style={{margin: 0, padding: 0}}>loves exploring, eating good food, and development :)</h2>  <br/> 
             <div className="links">
                 <ul>
                     <li><a href="https://github.com/komalessarani" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon id="icon" icon={faGithub} size="2x" color="white"/></a></li>

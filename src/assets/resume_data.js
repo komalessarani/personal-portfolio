@@ -5,7 +5,8 @@ const resumeData = {
                 name: 'University of North Carolina at Chapel Hill',
                 subtitle: 'M.S. in Computer Science',
                 extra_info: ['Graduate Level Algorithms & Analysis', 'Operating Systems: <i>C</i>', 'Information Visualization: <i>D3, Altair, Charticulator, Tableau</i>',
-                'Digital Logic: <i>SystemVerilog, C, MIPS</i>']
+                'Digital Logic: <i>SystemVerilog, C, MIPS</i>', 'Software Engineering Lab: <i>Neo4j.js, Next.js, Trello</i>', 
+                'Computational Photography: <i>Matlab, Python</i>']
                 },
                 {
                 date: 'August 2018-May 2021',
@@ -25,6 +26,12 @@ const resumeData = {
         ],
 
         employment: [
+            {
+                date: 'September 2022-Current',
+                name: 'Software Engineer',
+                subtitle: 'Oracle America, Inc',
+                extra_info: ['On the EPM team as an Applications Engineer']
+            },
             {
                 date: 'June 2021-August 2021',
                 name: 'Software Engineer Intern',
