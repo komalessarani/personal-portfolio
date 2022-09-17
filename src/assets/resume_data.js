@@ -83,7 +83,7 @@ const resumeData = {
 
         extracurriculars:[
             {
-                date: 'May 2020-Present',
+                date: 'May 2020-May 2022',
                 name: 'Computer Science Ambassador',
                 subtitle: 'UNC Chapel Hill',
                 extra_info: ['Assist with duties and tasks related to events put on by the External Relations team',
@@ -100,9 +100,9 @@ const resumeData = {
             },
 
             {
-                date: 'August 2018-Present',
+                date: 'August 2018-May 2022',
                 name: 'Computer Science + Social Good',
-                subtitle: 'August 2018-Present',
+                subtitle: 'UNC Chapel Hill',
                 extra_info: ['Collaborate on a team to develop applications using different types of technology for non-profit organizations']
             },
 
@@ -124,7 +124,7 @@ const resumeData = {
             },
 
             {
-                date:'June 2019-Present',
+                date:'June 2019-May 2022',
                 name: 'Rewriting the Code Fellow',
                 subtitle: 'Rewriting the Code',
                 extra_info: ['Fellowship provides opportunities to network with companies and other women in tech']
