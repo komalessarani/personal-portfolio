@@ -9,8 +9,8 @@ function About(){
             <h1 style={{color: 'black', fontSize:40}}>About Me</h1>     
             <div className="columns">
                 <div className="column">
-                    <p>Hello! I'm Komal, a Software Engineer at Oracle (more specifically an Applications Engineer)! 
-                        I am also an Alum of University of North Carolina at Chapel Hill, where I received both my B.S. in Computer Science with a 
+                    <p>Hello! I'm Komal, a Software Engineer at Oracle! 
+                        I am also an alumna of University of North Carolina at Chapel Hill, where I received both my B.S. in Computer Science with a 
                         minor in Statistics and Analytics, as well as my M.S. in Computer Science! So I am a die hard
                         UNC Chapel Hill Basketball fan... Go Heels!!</p> <br/>
                     <p>
