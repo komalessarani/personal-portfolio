@@ -30,7 +30,7 @@ const resumeData = {
                 date: 'September 2022-Current',
                 name: 'Software Engineer',
                 subtitle: 'Oracle America, Inc',
-                extra_info: ['On the EPM team as an Applications Engineer']
+                extra_info: ['On the EPM team as a Software Engineer']
             },
             {
                 date: 'June 2021-August 2021',
